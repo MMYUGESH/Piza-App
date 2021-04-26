@@ -27,7 +27,7 @@ return(
             <p>Price Details</p>
             <span  key={x._id}>price:{x.price}</span>
             <br />
-            <span  key={x._id}> Total Price:{(x.price)*300}</span>
+            <span  key={x._id}> Total Price:{(x.price)}</span>
             <br />
            
         

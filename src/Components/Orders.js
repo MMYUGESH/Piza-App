@@ -10,7 +10,7 @@ function Orders() {
       console.log(res.data);
     });
   }, []);
-  console.log(setProduct)
+  console.log(product[0])
   return (
      <div>
       <div>
