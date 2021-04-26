@@ -1,3 +1,139 @@
-h1, p {
+h1,
+p {
   font-family: Lato;
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: white;
+  color: white;
+}
+.list {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.option {
+  display: flex;
+  width: 30%;
+}
+.center {
+  text-align: center;
+  padding: 25px;
+  background-color: rgb(255, 219, 88);
+  border: 2px solid green;
+  border-radius: 5px;
+}
+.text {
+  font-size: 25px;
+  font-family: ele;
+  font-weight: bold;
+  border: 2px solid green;
+  border-radius: 5px;
+}
+.top {
+  background-color: rgb(255, 219, 88);
+  padding: 5px;
+}
+.hlo {
+  background-color:rgb(255, 219, 88);
+  text-decoration: none;
+  color:green;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+.display {
+  display: flex;
+  justify-content: space-around;
+}
+.center {
+  text-align: center;
+}
+.order {
+  border: 1px solid green;
+  background-color: lightblue;
+  padding: 10px;
+}
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+.orderdetail {
+  align-items: center;
+  list-style: none;
+  font-size: 20px;
+  font-style: ele;
+  font-weight: bold;
+}
+.orderborder {
+  border: 1px solid green;
+  background-color: lightblue;
+  padding: 10px;
+}
+button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button {
+  background-color: rgb(255, 219, 88);
+  color: black;
+  border: 2px solid #4caf50;
+}
+
+button:hover {
+  background-color: #4caf50;
+  color: white;
+}
+.output {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }

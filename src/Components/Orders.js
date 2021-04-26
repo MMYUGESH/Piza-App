@@ -16,6 +16,7 @@ function Orders() {
       <div>
         {product.map(x => (
           <div className="order" key={x}>
+          <p>{x.phone}</p>
             <span>Details</span>
             <br />
             <span> Address:{x.adress}</span>
