@@ -14,7 +14,7 @@ function Cart(){
   }, []);
 return(
 <div>
-<h1>Cart</h1>
+<h1>Price</h1>
       <div>
         {product.map(x => (
           <div className="order">

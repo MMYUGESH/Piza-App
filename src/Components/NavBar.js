@@ -34,7 +34,7 @@ return(
       <Nav.Link href="/Menu">Menu</Nav.Link>
       <Nav.Link href="/Custom">Custom</Nav.Link>
       <Nav.Link href="/Orders">Orders</Nav.Link>
-      <Nav.Link href="/Cart">Cart</Nav.Link>
+      <Nav.Link href="/Cart">Price</Nav.Link>
     </Nav>
   </Navbar>
     </Col>
